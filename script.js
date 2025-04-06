@@ -1,6 +1,6 @@
 const search = document.getElementById("cityInput");
 const searchBtn = document.querySelector(".search-btn");
-const searchForm = document.querySelector(".searchFromm");
+const searchForm = document.querySelector(".searchFrom");
 const cities = document.querySelector(".popular-cities");
 const currentCity = document.querySelector(".currentCity");
 const bgVideo = document.querySelector(".video-bg");
