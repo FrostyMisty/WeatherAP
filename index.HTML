@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <main class="mainContainer">
+      <div class="search-section">
+        <form class="searchForm">
+          <input
+            type="text"
+            id="cityInput"
+            placeholder="Search for a city..."
+          />
+          <button class="search-btn">Search</button>
+        </form>
+        <div class="currentCity"></div>
+        <label class="dark-mode-toggle">
+          <input type="checkbox" id="darkmodetoggle" />
+          <span>TDM</span>
+        </label>
+      </div>
+      <section class="popular-cities"></section>
+      <div class="page">
+        <button id="prevPage">Previous</button>
+        <span id="pageInfo"></span>
+        <button id="nextPage">Next</button>
+      </div>
+      <img class="test" src="" alt="" />
+    </main>
+    <video class="video-bg" autoplay muted loop>
+      <source class="videoSrc" src="" type="video/mp4" />
+    </video>
+  </body>
+</html>
